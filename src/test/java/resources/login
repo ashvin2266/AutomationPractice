@@ -1,0 +1,20 @@
+
+Feature: login.
+  @login
+  Scenario:
+#    Given I enter url as"https://www.d3dsecurity.co.uk"
+    When I click on login  button on home page
+    Then I should see login page
+    When I click on register button on login page
+    Then I should see register page
+    Given I enter first name as  "pat"
+    Given I enter last name as  "cat"
+    Given I enter valid email as "patcat@hotmail.com"
+    Given I enter Password as "Pat123"
+    Given I enter confirm password as "Pat123"
+    When I click on register button on register page
+    Then I should see account login page
+ #   Given I enter Username as"patcat@hotmail.com"
+  #  Given I enter password id as"Pat123"
+  #  When I click on login button on login page.
+   # Then I should see my account page.
