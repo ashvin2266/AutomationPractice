@@ -16,7 +16,4 @@ Feature: Car tax
     When I click No search again button
     And click on continue button
     Then I should see page contain Url as "https://vehicleenquiry.service.gov.uk/ViewVehicle"
-   @car
-    Scenario: Read Excel sheet
-     Given I am reading a Excel file "car_data.xlsx"
-     When I click on continue button on service page
+

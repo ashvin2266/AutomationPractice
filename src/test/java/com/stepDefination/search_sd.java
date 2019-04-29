@@ -1,5 +1,7 @@
 package com.stepDefination;
 
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -30,6 +32,7 @@ public class search_sd extends DriverClass {
     public void iClickSearchButton() {
         driver.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div/form/button")).click();
     }
+
 
 //    @Given("^I am on homepage$")
 //    public void iAmOnHomepage() {

@@ -6,10 +6,14 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 
 public class alreadyRegistered_sd extends DriverClass {
     public alreadyRegistered_page d_page = PageFactory.initElements(driver,alreadyRegistered_page.class);
+    private Object DataTable;
+
+
     @When("^I click on a sign in button on home page$")
     public void iClickOnASignInButtonOnHomePage()  {
         d_page.clickSignIn();
@@ -41,7 +45,13 @@ public class alreadyRegistered_sd extends DriverClass {
 
     @Given("^I enter below details;$")
     public void iEnterBelowDetails(DataTable table) {
-        d_page.enterData(table);    }
+//        d_page.enterData(DataTable table);
+        driver.findElement(By.id("email")).sendKeys(table.getGherkinRows().get(1).getCells().get(0));
+        System.out.println(table.getGherkinRows().get(1).getCells().get(0));
+        System.out.println(table.getGherkinRows().get(1).getCells().get(1));
+        driver.findElement(By.name("passwd")).sendKeys(table.getGherkinRows().get(1).getCells().get(1));
+
+         }
 
     @Then("^I should see error message as \"([^\"]*)\"$")
     public void iShouldSeeErrorMessageAs(String message) {

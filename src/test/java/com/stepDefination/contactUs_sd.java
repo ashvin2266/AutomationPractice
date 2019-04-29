@@ -1,6 +1,7 @@
 package com.stepDefination;
 
 import com.stepDefination.pages.contactUs_page;
+import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -8,6 +9,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class contactUs_sd extends DriverClass {
     public contactUs_page c_page = PageFactory.initElements(driver, contactUs_page.class);
@@ -135,4 +137,27 @@ public class contactUs_sd extends DriverClass {
 
 
             }
+//            stepDefination for DataTable`
+
+    @Given("^I selected subject heading as$")
+    public void iSelectedSubjectHeadingAs(DataTable table) {
+        String subHeading = table.getGherkinRows().get(0).getCells().get(0);
+        new Select(driver.findElement(By.name("id_contact"))).selectByVisibleText(subHeading);
+        System.out.println(subHeading);
+        
+    }
+
+    @Given("^I enter a valid detail$")
+    public void iEnterAValidDetail(DataTable table) {
+        String email = table.getGherkinRows().get(1).getCells().get(0);
+        driver.findElement(By.id("email")).sendKeys(email);
+        System.out.println(email);
+        String orderRef = table.getGherkinRows().get(1).getCells().get(1);
+        driver.findElement(By.name("id_order")).sendKeys(orderRef);
+        System.out.println(orderRef);
+        String message1 = table.getGherkinRows().get(1).getCells().get(2);
+        System.out.println(message1);
+        driver.findElement(By.id("message")).sendKeys(message1);
+
+    }
 }

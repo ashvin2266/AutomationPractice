@@ -4,7 +4,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/resources",tags = "@excel")
+@CucumberOptions(features = "src/test/java/resources",tags = "@contactDataTable")
 public class runCukes {
 
 }

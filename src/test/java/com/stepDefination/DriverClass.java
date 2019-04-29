@@ -45,12 +45,12 @@ public class DriverClass {
 
 
 
-//        driver.get("http://automationpractice.com/index.php");
+        driver.get("http://automationpractice.com/index.php");
 //        driver.get("https://www.screwfix.com");
 //        driver.get("https://www.d3dsecurity.co.uk");
 //        driver.get("https://www.primark.com/en/homepage");
 //        driver.get("https://www.gov.uk/");
-        driver.get("https://vehicleenquiry.service.gov.uk/");
+//        driver.get("https://vehicleenquiry.service.gov.uk/");
 
     }
 

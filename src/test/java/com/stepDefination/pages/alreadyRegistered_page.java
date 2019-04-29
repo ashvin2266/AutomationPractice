@@ -5,6 +5,8 @@ import cucumber.api.DataTable;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
+import java.util.List;
+
 public class alreadyRegistered_page extends DriverClass {
     public void clickSignIn(){
         driver.findElement(By.linkText("Sign in")).click();
@@ -34,11 +36,13 @@ public class alreadyRegistered_page extends DriverClass {
         }
     }
     public void enterData(DataTable table){
-        System.out.println(table.getGherkinRows().get(0).getCells().get(0));
-        System.out.println(table.getGherkinRows().get(1).getCells().get(0));
-        System.out.println(table.getGherkinRows().get(0).getCells().get(1));
-        driver.findElement(By.id("email")).sendKeys();
-        driver.findElement(By.name("passwd")).sendKeys();
+//        List<List<String>>Data =table.getGherkinRows().get(1).getCells().get(0);
+//        System.out.println(table.getGherkinRows().get(1).getCells().get(0));
+//        System.out.println(table.getGherkinRows().get(1).getCells().get(1));
+
+//       driver.findElement(By.id("email")).sendKeys(table.getGherkinRows().get(1).getCells().get(0));
+//        System.out.println(table.getGherkinRows().get(0).getCells().get(1));
+//        driver.findElement(By.name("passwd")).sendKeys();
 
     }
     public void errorMessage(String message){
