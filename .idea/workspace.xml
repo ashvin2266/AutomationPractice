@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b5cf381-675b-4f63-ac36-53f0d1349473" name="Default Changelist" comment="Initial set up">
+    <list default="true" id="4b5cf381-675b-4f63-ac36-53f0d1349473" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Logs/log.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/runCukes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/runCukes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Extent_Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Extent_Reports/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/runCukes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/runCukes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602718064470</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initial set up">
+      <created>1602719012184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602719012184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -347,30 +355,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602711282680" />
-    <state x="341" y="17" key="CommitChangelistDialog2" timestamp="1602718360079">
+    <state x="341" y="17" key="CommitChangelistDialog2" timestamp="1602719011344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602718360079" />
+    <state x="341" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602719011344" />
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1594847329152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594847329152" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1602718754936">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1602719445321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602718754936" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1602718754936">
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1602719445321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602718754936" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1602718754936">
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1602719445321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602718754936" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1602718754936">
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1602719445321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602718754936" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
     <state x="147" y="64" key="MergeDialog" timestamp="1602718108685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
