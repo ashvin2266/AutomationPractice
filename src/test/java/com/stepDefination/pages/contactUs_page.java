@@ -1,6 +1,6 @@
 package com.stepDefination.pages;
 
-import com.stepDefination.DriverClass;
+import com.stepDefination.utility.DriverClass;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
@@ -13,10 +13,12 @@ public class contactUs_page extends DriverClass {
 
     public void expected_heading(String sub_heading) {
 
-       new Select(driver.findElement(By.name("id_contact"))).selectByVisibleText(sub_heading);
-//        new Select(driver.findElement(By.name("id_contact"))).selectByValue("2");
-//
-//         new Select(driver.findElement(By.name("id_contact"))).selectByValue("2");
+      Select SubHeading= new Select(driver.findElement(By.name("id_contact")));
+      if(sub_heading.equalsIgnoreCase("Customer Service")){
+          SubHeading.selectByValue("2");
+      }
+      else if(sub_heading.equalsIgnoreCase("Webmaster")){
+          SubHeading.selectByValue("1");}
 
     }
 
@@ -30,6 +32,9 @@ public class contactUs_page extends DriverClass {
 
     public void attachedFile() {
        String path = System.getProperty("user.dir");
+//        driver.findElement(By.id("fileUpload")).sendKeys("C:/Users/ashvi/OneDrive/Documents/Ashvin C.V");
+
+
        driver.findElement(By.id("fileUpload")).sendKeys(path + "/src/test/java/com/testData/sampleDataText.txt");
     }
 
@@ -66,25 +71,10 @@ public class contactUs_page extends DriverClass {
         }
     }
 
-//    public void subjectHeading() {
-//        new Select(driver.findElement(By.id("id_contact"))).selectByIndex(2);
-//    }
-//
-//    public void errorMessage(String message3) {
-//        driver.findElement(By.xpath("//*[@id=\"center_column\"]/div/ol/li")).getText();
-//    }
-//
-//    public void message4(String message4) {
-//        driver.findElement(By.xpath("//*[@id=\"center_column\"]/div/ol/li")).getText();
-//    }
-//
+
     public void withoutAttachedFile() {
         driver.findElement(By.xpath("//*[@id=\"uniform-fileUpload\"]/span[1]")).getText();
     }
-
-//    public void heading(String subHeading) {
-//        new Select(driver.findElement(By.name("id_contact"))).selectByValue("1");
-//    }
 
 }
 

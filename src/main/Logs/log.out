@@ -1,0 +1,16 @@
+2020-10-14 23:10:599 INFO  DriverClass :37 - Chrome Browser is opened
+2020-10-14 23:10:613 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-14 23:10:614 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-14 23:10:572 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-14 23:10:668 INFO  DriverClass :54 - abg@hotmail.com
+2020-10-14 23:10:668 INFO  DriverClass :55 - 123abc
+2020-10-14 23:10:328 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-14 23:10:329 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-14 23:10:516 INFO  DriverClass :37 - Chrome Browser is opened
+2020-10-14 23:10:403 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-14 23:10:403 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-14 23:10:352 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-14 23:10:454 INFO  DriverClass :54 - abg@hotmail.com
+2020-10-14 23:10:456 INFO  DriverClass :55 - 123abc
+2020-10-14 23:10:959 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-14 23:10:959 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account

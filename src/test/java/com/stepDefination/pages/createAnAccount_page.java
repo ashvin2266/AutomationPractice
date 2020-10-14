@@ -1,6 +1,6 @@
 package com.stepDefination.pages;
 
-import com.stepDefination.DriverClass;
+import com.stepDefination.utility.DriverClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.*;
 

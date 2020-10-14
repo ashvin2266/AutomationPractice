@@ -1,0 +1,23 @@
+ "hotelCodes":[["BRAWEA","BRADOW","BAGCRI","CAMRAC","CAMPAR","MAITHY","FARTOW","REAPTI","FARMON","FLEWAT","REABAR",
+    "SLOWIN","SLOPTI","SLOWES","WOKBRI","MARGEO","REAOLD","WOKEUR","LONADD","ALDWIL","FARMAN","HEAFOU",
+    "HEAFIV","SUNKEM","GUIPAR","HIGPAP","HEAPTI","LONUXB","HIGCEN","HEAMTI"]],
+
+  "rooms":[
+
+    {"type":"DB",
+      "adults":1,
+    },
+
+      "children":0,
+
+      "cotRequired":false}],
+
+  "arrival":"2019-12-26",
+
+  "departure":"2019-12-27",
+
+  "cellCodes":[],
+
+  "hotelUpsell":true
+
+
