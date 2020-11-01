@@ -1,14 +1,16 @@
 package com.stepDefination.utility;
 
+import cucumber.api.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -21,7 +23,7 @@ public class DriverClass {
        //    //    String isAPI;
 
 
-    public void openBrowser() throws IOException {
+    public static void openBrowser() throws IOException {
 /*       if you want to change browser need to change in configuration VM option -Dbrowser=chrome or firefox use following syntax
        String browser=System.getProperty("browser");
    if you want to change browser from properties file use following syntax*/
@@ -33,7 +35,11 @@ public class DriverClass {
 
             if (browser.equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+             /* if you want execute test without opening browser(Headless Browser)use this code
+                ChromeOptions chromeoption=new ChromeOptions();
+                chromeoption.addArguments("--headless");
+                driver = new ChromeDriver(chromeoption);*/
+                  driver=new ChromeDriver();
                 log.info("Chrome Browser is opened");
             } else if(browser.equalsIgnoreCase("firefox")) {
                 WebDriverManager.firefoxdriver().setup();
@@ -73,10 +79,10 @@ public class DriverClass {
 //        driver.get("https://www.carshop.co.uk/");
 
             driver.manage().deleteAllCookies();
-            driver.get(getProperty("url"));
+            driver.get(getProperty("url3"));
             driver.manage().window().maximize();
-            driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(40,TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 //        driver.get("https://www.screwfix.com");
 //        driver.get("https://www.d3dsecurity.co.uk");
 //        driver.get("https://www.primark.com/en/homepage");
@@ -108,5 +114,15 @@ public class DriverClass {
         return prop.getProperty(key);
 
 
+    }
+    public static String takeAscreenShot(Scenario scenario, String scenarioName) throws IOException {
+         scenarioName=scenario.getName().toString();
+        File srcfile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        String screenshotpath = new File("C:/Users/ashvi/Desktop/"+ scenarioName+".png").toString();
+        String screenshotpath = new File("./target/screenShot/"+ scenarioName+".png").toString();
+        FileUtils.copyFile(srcfile, new File(screenshotpath));
+        System.out.println(scenarioName);
+        System.out.println(screenshotpath);
+        return screenshotpath;
     }
 }

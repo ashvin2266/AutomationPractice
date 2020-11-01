@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 15, 2020 12:48:39 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 29, 2020 09:36:25 PM</span>
 				</a>
 			</li>
 			<li>
@@ -85,8 +85,7 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@already</a></li>
-					<li><a href='#'>@data</a></li>
+					<li><a href='#'>@guru1</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -164,7 +163,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>7</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -183,67 +182,74 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Already Registered</span>
-						<span class='test-time'>Oct 15, 2020 12:48:39 AM</span>
+						<span class='test-name'>User select mobile and check it is in cart</span>
+						<span class='test-time'>Oct 29, 2020 09:36:25 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
 	<div class='category-list'>
-		<span class='category label white-text'>@data</span>
+		<span class='category label white-text'>@guru1</span>
 	</div>
-	<span class='duration right label'>0h 0m 13s+176ms</span>
+	<span class='duration right label'>0h 0m 10s+963ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">enter data by data table</span>
+		<span class="desc-text">verify selected mobile are sorted by name</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given I go to Home Page</span>
+			<span class="bdd-step-name">Given I go to Home Page url as "http://live.demoguru99.com/"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='4' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When I click on a sign in button on home page</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='5' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then I should see Already Registered in authentication page title as"Login - My Store"</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='6' class='node given pass' status='pass'>
+		<li test-id='4' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given I enter below details;</span>
-				<div class='pre'><table><tr><td>email</td><td>password</td></tr><tr><td>abg@hotmail.com</td><td>123abc</td></tr><tr><td>cde@hotmail.com</td><td>cde1234</td></tr></table></div>
+			<span class="bdd-step-name">Given I Verify Title of the page</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='7' class='node when pass' status='pass'>
+		<li test-id='5' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When I click on sign in button</span>
+			<span class="bdd-step-name">When I Click on �MOBILE� menu</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='8' class='node then pass' status='pass'>
+		<li test-id='6' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then I should see my account page Url as"http://automationpractice.com/index.php?controller=my-account"</span>
+			<span class="bdd-step-name">Then I  Verify the  Title of the page</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='7' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given In the list of all mobile</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='8' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When I select �SORT BY� dropdown as �name�</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='9' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I Verify all products are sorted by name</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -303,7 +309,7 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@already</span>
+						<span class='category-name'>@guru1</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -326,42 +332,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Oct 15, 2020 12:48:39 AM</td>
-										<td class='linked' test-id='1'>Already Registered</td>
-										<td><span class='test-status pass'>pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@data</span>
-						<span class='category-status right'>
-							<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-					
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Oct 15, 2020 12:48:39 AM</td>
-										<td class='linked' test-id='2'>Already Registered.enter data by data table</td>
+										<td>Oct 29, 2020 09:36:25 PM</td>
+										<td class='linked' test-id='2'>User select mobile and check it is in cart.verify selected mobile are sorted by name</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -402,25 +374,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>7</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 15, 2020 12:48:39 AM</div>
+					<div class='panel-lead'>Oct 29, 2020 09:36:25 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 15, 2020 12:48:53 AM</div>
+			 		<div class='panel-lead'>Oct 29, 2020 09:36:36 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 13s+385ms</div>
+					<div class='panel-lead'>0h 0m 11s+182ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -472,16 +444,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@already</td>
-							<td>1</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@data</td>
+							<td>@guru1</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -519,7 +482,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 6,
+				passGrandChild: 7,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

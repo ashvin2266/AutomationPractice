@@ -1,5 +1,5 @@
 Feature: contact us
-  @contact
+  @contact11
   Scenario Outline: :contact us with valid detail
     When I click on contact us on home page
     Given I selected subject heading as "<sub_heading>"
@@ -15,13 +15,13 @@ Feature: contact us
     | Customer service | abg@hotmail.com | A012345         | Its regarding your product | Your message has been successfully sent to our team. |
     | Webmaster        | abg@hotmail.com | A012345         | Its regarding your product | Your message has been successfully sent to our team. |
     | Customer service | abg@hotmail.com   |               | Its regarding your product | Your message has been successfully sent to our team. |
-    | Customer service  | abg@hotmail.com | A012345         |                            | There is 1 error The message cannot be blank.                        |
+    | Customer service  | abg@hotmail.com | A012345         |                           | The message cannot be blank.                        |
      | Webmaster        | abg@hotmail.com |                | Its regarding your product | Your message has been successfully sent to our team. |
-    | Webmaster        | abg@hotmail.com | A012345          |                             | There is 1 error The message cannot be blank                         |
-    | Webmaster        | abghotmail.com  | A012345         | Its regarding your product | There is 1 error Invalid email address.            |
-    | Customer service | abghotmail.com  | A012345         | Its regarding your product | There is 1 error Invalid email address.            |
-    | Customer service |                 |                 |                            | There is 1 error Invalid email address.             |
-    | Webmaster        |                 |                 |                            | There is 1 error Invalid email address.             |
+    | Webmaster        | abg@hotmail.com | A012345          |                           | The message cannot be blank                         |
+    | Webmaster        | abghotmail.com  | A012345         | Its regarding your product |  Invalid email address.            |
+    | Customer service | abghotmail.com  | A012345         | Its regarding your product | Invalid email address.            |
+    | Customer service |                 |                 |                            | Invalid email address.             |
+    | Webmaster        |                 |                 |                            | Invalid email address.             |
 
   @contactDataTable
   Scenario:contact us with valid detail
@@ -35,15 +35,3 @@ Feature: contact us
     When I click on send button
     Then I should see url as "http://automationpractice.com/index.php?controller=contact"
     Then I should see the message as "Your message has been successfully sent to our team."
-#    Examples:
-#      | sub_heading       | email           | order_ref       | message 1                  | message                                             |
-#      | Customer service | abg@hotmail.com | A012345         | Its regarding your product | Your message has been successfully sent to our team. |
-#      | Webmaster        | abg@hotmail.com | A012345         | Its regarding your product | Your message has been successfully sent to our team. |
-#      | Customer service | abg@hotmail.com   |               | Its regarding your product | Your message has been successfully sent to our team. |
-#      | Customer service  | abg@hotmail.com | A012345         |                            | There is 1 error The message cannot be blank.                        |
-#      | Webmaster        | abg@hotmail.com |                | Its regarding your product | Your message has been successfully sent to our team. |
-#      | Webmaster        | abg@hotmail.com | A012345          |                             | There is 1 error The message cannot be blank                         |
-#      | Webmaster        | abghotmail.com  | A012345         | Its regarding your product | There is 1 error Invalid email address.            |
-#      | Customer service | abghotmail.com  | A012345         | Its regarding your product | There is 1 error Invalid email address.            |
-#      | Customer service |                 |                 |                            | There is 1 error Invalid email address.             |
-#      | Webmaster        |                 |                 |                            | There is 1 error Invalid email address.

@@ -8,18 +8,18 @@ import org.junit.runner.RunWith;
 import java.io.IOException;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/java/resources",tags = "@data",
+@CucumberOptions(features = "src/test/java/resources",tags = "@guru1",
         plugin = {
-//        "pretty","html:test-output",
-                "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
+        "pretty","html:test-output",
+                "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html"}
 //                "html:target/cucumber-report/cucumber.html"
-}
+
 )
 public class runCukes {
     @AfterClass
     public static void setup() throws IOException {
-//        String projectPath = System.getProperty("user.dir");
-        String reportConfigPath = "src/test/java/com/stepDefination/propertyfile/Extent-config.xml";
+        String projectPath = System.getProperty("user.dir");
+        String reportConfigPath = projectPath+"/src/test/java/com/stepDefination/propertyfile/Extent-config.xml";
 //        Reporter.getExtentHtmlReport();
 
         Reporter.loadXMLConfig(reportConfigPath);

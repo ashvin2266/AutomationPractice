@@ -3,10 +3,50 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5cf381-675b-4f63-ac36-53f0d1349473" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Results - Feature__signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Logs/log.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/pages/contactUs_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/pages/ContactUs_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/pages/createAnAccount_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/pages/createAnAccount_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/propertyfile/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/propertyfile/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/runCukes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/runCukes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/utility/CommonMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/utility/CommonMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/utility/DriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/utility/DriverClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/utility/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/utility/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/Adp_sd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/carTax_sd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/carTax_sd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/contactUs_sd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/contactUs_sd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/createAnAccount_sd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/createAnAccount_sd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/getaQuote_sd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/getaQuote_sd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/guruTest1_sd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/guruTest1_sd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/Adp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/alreadyRegistered.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/alreadyRegistered.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/carTax.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/carTax.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/contactUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/contactUs.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/contactUsOutline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/contactUsOutline.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/createAnAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/createAnAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/getaQuote.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/getaQuote.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/web/gureTest1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/web/gureTest1.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Extent_Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/Extent_Reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/pages/contactUs_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/pages/contactUs_page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/pages/createAnAccount_page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/pages/createAnAccount_page.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/runCukes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/runCukes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/utility/CommonMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/utility/CommonMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/utility/DriverClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/utility/DriverClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/utility/hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/utility/hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/Adp_sd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/alreadyRegistered_sd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/alreadyRegistered_sd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/carTax_sd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/carTax_sd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/contactUs_sd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/contactUs_sd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/createAnAccount_sd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/createAnAccount_sd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/getaQuote_sd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/getaQuote_sd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/guruTest1_sd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stepDefination/web_sd/guruTest1_sd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/jquery-1.8.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -298,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602719012184</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial set up">
+      <created>1602719467507</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602719467507</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -347,38 +395,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1597829144145" />
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602709199074">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603281082934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602709199074" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603281082934" />
+    <state x="100" y="100" width="1336" height="624" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604003615138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1604003615138" />
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602711282680">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602711282680" />
-    <state x="341" y="17" key="CommitChangelistDialog2" timestamp="1602719011344">
+    <state x="341" y="17" key="CommitChangelistDialog2" timestamp="1602719466698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602719011344" />
-    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1594847329152">
+    <state x="341" y="17" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602719466698" />
+    <state width="1478" height="334" key="GridCell.Tab.0.bottom" timestamp="1604007421975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594847329152" />
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1602719445321">
+    <state width="1478" height="334" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604007421975" />
+    <state width="1478" height="334" key="GridCell.Tab.0.center" timestamp="1604007421975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
-    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1602719445321">
+    <state width="1478" height="334" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604007421975" />
+    <state width="1478" height="334" key="GridCell.Tab.0.left" timestamp="1604007421975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
-    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1602719445321">
+    <state width="1478" height="334" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604007421975" />
+    <state width="1478" height="334" key="GridCell.Tab.0.right" timestamp="1604007421975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
-    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1602719445321">
+    <state width="1478" height="334" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604007421975" />
+    <state width="1478" height="364" key="GridCell.Tab.1.bottom" timestamp="1603458191310">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602719445321" />
+    <state width="1478" height="364" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603458191310" />
+    <state width="1478" height="364" key="GridCell.Tab.1.center" timestamp="1603458191310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="364" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603458191310" />
+    <state width="1478" height="364" key="GridCell.Tab.1.left" timestamp="1603458191310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="364" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603458191310" />
+    <state width="1478" height="364" key="GridCell.Tab.1.right" timestamp="1603458191310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="364" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603458191310" />
     <state x="147" y="64" key="MergeDialog" timestamp="1602718108685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -387,18 +451,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="481" y="129" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1602718108689" />
-    <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1594847359178">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1602719553357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1594847359178" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1602714689244">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602719553357" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604001277997">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602714689244" />
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602712587400">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1602712587400" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1604001277997" />
     <state x="468" y="215" key="git4idea.merge.GitPullDialog" timestamp="1602718753959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -414,7 +474,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/stepDefination/web_sd/createAnAccount_sd.java</url>
-          <line>96</line>
+          <line>106</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

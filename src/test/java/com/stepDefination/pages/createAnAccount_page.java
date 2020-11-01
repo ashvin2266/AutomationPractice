@@ -1,66 +1,99 @@
 package com.stepDefination.pages;
 
+import com.stepDefination.utility.CommonMethod;
 import com.stepDefination.utility.DriverClass;
+import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.*;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
 
 public class createAnAccount_page extends DriverClass {
 //    WebDriverWait wait= new WebDriverWait(driver,60);
+    @FindBy(id = "email_create")
+    WebElement email;
+    @FindBy(id = "SubmitCreate")
+    WebElement submit;
+    @FindBy(id = "id_gender1")
+    WebElement clickMr;
+    @FindBy(id = "uniform-id_gender2")
+    WebElement clickMrs;
+    @FindBy(name = "customer_lastname")
+    WebElement LastName;
+    @FindBy(name = "passwd")
+    WebElement Passwd;
+    @FindBy(name = "customer_firstname")
+    WebElement FirstName;
+    @FindBy(name = "days")
+    WebElement day;
+    @FindBy(name = "months")
+    WebElement Month;
+    @FindBy(id = "years")
+    WebElement Year;
+    @FindBy(id = "newsletter")
+    WebElement news;
+    @FindBy(name = "optin")
+    WebElement offer;
+    @FindBy(id = "company")
+    WebElement Company;
+    @FindBy(xpath = "//span[@class='navigation_page']")
+    WebElement pageHeading;
 
-    public void clickSignIn(){
-        driver.findElement(By.linkText("Sign in")).click();
+
+
+
+    public createAnAccount_page(){
+        PageFactory.initElements(driver,this);
     }
-    public void authenticationPage() throws InterruptedException {
-//        Thread.sleep(2000);
-        String ActualURL=driver.getCurrentUrl();
-    }
+
+
     public void email(String Email1){
-        driver.findElement(By.id("email_create")).sendKeys(Email1);
+         Email1= CommonMethod.StringrandomString()+"@gmail.com";
+        System.out.println(Email1);
+        email.sendKeys(Email1);
     }
-    public void clickOnCreateAnAccount(){
-        driver.findElement(By.id("SubmitCreate")).click();
+    public void clickOnCreateAnAccount()
+    {
+        submit.click();
     }
-    public void personnelPage(){
-        String ActualURL=driver.getCurrentUrl();
-    }
-    public void Title(String Title) throws InterruptedException {
-        Thread.sleep(3000);
-//        WebDriverWait wait= new WebDriverWait(driver,60);
-//        wait.until(ExpectedConditions.visibilityOf((WebElement)By.name("id_gender"))).click();
-//        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
-//                .withTimeout(60,TimeUnit.SECONDS)
-//                .pollingEvery(5,TimeUnit.SECONDS)
-//                .ignoring(NoSuchElementException.class);
-//
-        driver.findElement(By.name("id_gender")).click();
+       public void Title(String Title) throws InterruptedException {
+        Thread.sleep(5000);
+           if (Title.equalsIgnoreCase("Mr.")){
+        clickMr.click();}
+           else if (Title.equalsIgnoreCase("Mrs.")){          clickMrs.click();
+
+           }
+           log.info ("Title "+ Title +" is selected");
 
     }
     public void firstName(String firstName){
-        driver.findElement(By.name("customer_firstname")).sendKeys(firstName);
+        FirstName.sendKeys(firstName);
     }
     public void lastName(String lastName){
-        driver.findElement(By.name("customer_lastname")).sendKeys(lastName);
+        LastName.sendKeys(lastName);
     }
     public void password(String password){
-        driver.findElement(By.name("passwd")).sendKeys(password);
+        Passwd.sendKeys(password);
     }
     public void date(String Date){
-        new Select(driver.findElement(By.name("days"))).selectByValue(Date);
+        new Select(day).selectByValue(Date);
     }
     public void month(String month){
-        new Select(driver.findElement(By.name("months"))).selectByVisibleText(month);
+        new Select(Month).selectByVisibleText(month);
     }
     public void year(String year){
-        new Select(driver.findElement(By.id("years"))).selectByValue(year);
+        new Select(Year).selectByValue(year);
     }
     public void newsletter(){
-        driver.findElement(By.id("newsletter")).click();
+        news.click();
     }
     public void specialOffer(){
-            driver.findElement(By.name("optin")).click();
+            offer.click();
         }
     public void companyName(String company){
-        driver.findElement(By.id("company")).sendKeys(company);
+        Company.sendKeys(company);
     }
     public void address(String address){
         driver.findElement(By.name("address1")).sendKeys(address);
@@ -97,6 +130,11 @@ public class createAnAccount_page extends DriverClass {
     }
     public void accountPage(){
         String ActualURL=driver.getCurrentUrl();
+    }
+    public void verifyPageHeading(String pagetitle){
+        String actualHeading=pageHeading.getText();
+        Assert.assertEquals(pagetitle,actualHeading);
+        log.info("My Account page Heading is verified ="+ actualHeading);
     }
 
 

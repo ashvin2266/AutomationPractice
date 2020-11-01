@@ -1,57 +1,378 @@
-2020-10-14 23:10:599 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-14 23:10:613 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-14 23:10:614 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-14 23:10:572 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-14 23:10:668 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-14 23:10:668 INFO  DriverClass :55 - 123abc
-2020-10-14 23:10:328 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-14 23:10:329 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-14 23:10:516 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-14 23:10:403 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-14 23:10:403 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-14 23:10:352 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-14 23:10:454 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-14 23:10:456 INFO  DriverClass :55 - 123abc
-2020-10-14 23:10:959 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-14 23:10:959 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:958 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-15 00:10:619 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-15 00:10:511 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-15 00:10:511 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-15 00:10:483 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-15 00:10:561 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-15 00:10:561 INFO  DriverClass :55 - 123abc
-2020-10-15 00:10:946 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:946 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:243 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-15 00:10:338 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-15 00:10:338 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-15 00:10:173 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-15 00:10:242 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-15 00:10:242 INFO  DriverClass :55 - 123abc
-2020-10-15 00:10:625 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:626 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:260 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-15 00:10:164 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-15 00:10:164 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-15 00:10:922 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-15 00:10:11 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-15 00:10:11 INFO  DriverClass :55 - 123abc
-2020-10-15 00:10:934 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:934 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:640 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-15 00:10:630 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-15 00:10:630 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-15 00:10:664 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-15 00:10:732 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-15 00:10:732 INFO  DriverClass :55 - 123abc
-2020-10-15 00:10:88 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:88 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:862 INFO  DriverClass :37 - Chrome Browser is opened
-2020-10-15 00:10:882 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
-2020-10-15 00:10:882 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
-2020-10-15 00:10:573 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
-2020-10-15 00:10:647 INFO  DriverClass :54 - abg@hotmail.com
-2020-10-15 00:10:647 INFO  DriverClass :55 - 123abc
-2020-10-15 00:10:09 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
-2020-10-15 00:10:09 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-16 00:10:216 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:618 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:618 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:824 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:391 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:391 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:605 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:219 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:220 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:388 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:752 INFO  DriverClass :101 - Actual  message is  The message cannot be blank.
+2020-10-16 00:10:752 INFO  DriverClass :107 - Expected message is  The message cannot be blank.
+2020-10-16 00:10:941 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:780 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:781 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:953 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:232 INFO  DriverClass :107 - Expected message is  The message cannot be blank
+2020-10-16 00:10:416 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:748 INFO  DriverClass :105 - Actual  message is  Invalid email address.
+2020-10-16 00:10:749 INFO  DriverClass :107 - Expected message is  Invalid email address.
+2020-10-16 00:10:926 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:475 INFO  DriverClass :105 - Actual  message is  Invalid email address.
+2020-10-16 00:10:476 INFO  DriverClass :107 - Expected message is  Invalid email address.
+2020-10-16 00:10:666 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:322 INFO  DriverClass :105 - Actual  message is  Invalid email address.
+2020-10-16 00:10:323 INFO  DriverClass :107 - Expected message is  Invalid email address.
+2020-10-16 00:10:543 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:355 INFO  DriverClass :105 - Actual  message is  Invalid email address.
+2020-10-16 00:10:355 INFO  DriverClass :107 - Expected message is  Invalid email address.
+2020-10-16 00:10:562 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:92 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:165 INFO  DriverClass :38 - Chrome Browser is opened
+2020-10-16 00:10:515 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 00:10:516 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-16 12:10:860 INFO  DriverClass :41 - Chrome Browser is opened
+2020-10-16 12:10:323 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 12:10:323 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-16 12:10:809 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-16 12:10:398 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-16 12:10:398 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-21 12:10:191 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:532 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:83 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:479 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:248 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:165 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 12:10:165 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 12:10:852 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 12:10:812 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 12:10:812 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 12:10:818 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-21 12:10:66 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:223 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 12:10:224 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 12:10:304 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 12:10:985 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 12:10:986 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 12:10:993 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-21 12:10:452 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:770 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 12:10:770 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 12:10:920 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 12:10:573 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 12:10:574 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 12:10:587 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-21 12:10:490 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:756 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:840 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 12:10:588 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:670 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:86 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:93 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:570 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 13:10:571 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 13:10:428 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 13:10:343 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 13:10:343 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 13:10:358 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-21 13:10:847 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:836 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 13:10:836 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 13:10:590 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 13:10:643 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 13:10:643 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php?controller=my-account
+2020-10-21 13:10:659 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-21 13:10:717 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:911 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:517 INFO  DriverClass :93 - Actual  message is  Your message has been successfully sent to our team.
+2020-10-21 13:10:517 INFO  DriverClass :107 - Expected message is  Your message has been successfully sent to our team.
+2020-10-21 13:10:842 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:188 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:179 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:668 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:550 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:431 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 13:10:59 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 13:10:59 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 13:10:676 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:179 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:512 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:512 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:347 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:205 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:89 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:89 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:581 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:969 INFO  DriverClass :50 - Actual error msg is Password is required.
+2020-10-21 14:10:276 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:380 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:380 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:648 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:645 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:710 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:710 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:492 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:675 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:310 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:310 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:104 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:980 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:536 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:536 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:349 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:534 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:400 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:400 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:226 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:726 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:436 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:436 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:216 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:924 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:238 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:238 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:938 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:182 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:611 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:611 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:363 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:589 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:622 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:622 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:448 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:682 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:136 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:136 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:48 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:687 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:302 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:302 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:589 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:343 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:306 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:306 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:335 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:120 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:268 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:268 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:384 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:343 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:889 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:889 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:583 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:775 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:665 INFO  DriverClass :15 - expected Url is http://automationpractice.com/index.php
+2020-10-21 14:10:665 INFO  DriverClass :16 - Actual Url is http://automationpractice.com/index.php
+2020-10-21 14:10:130 INFO  DriverClass :22 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 14:10:804 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:720 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:741 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:464 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:279 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:261 INFO  DriverClass :15 - expected Url is https://www.gov.uk/browse/driving
+2020-10-21 14:10:261 INFO  DriverClass :16 - Actual Url is https://www.gov.uk/browse/driving
+2020-10-21 14:10:261 INFO  DriverClass :27 - Page URL is verified https://www.gov.uk/browse/driving
+2020-10-21 14:10:341 INFO  DriverClass :15 - expected Url is https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance
+2020-10-21 14:10:341 INFO  DriverClass :16 - Actual Url is https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance
+2020-10-21 14:10:341 INFO  DriverClass :27 - Page URL is verified https://www.gov.uk/browse/driving/vehicle-tax-mot-insurance
+2020-10-21 14:10:653 INFO  DriverClass :15 - expected Url is https://www.gov.uk/check-vehicle-tax
+2020-10-21 14:10:653 INFO  DriverClass :16 - Actual Url is https://www.gov.uk/check-vehicle-tax
+2020-10-21 14:10:653 INFO  DriverClass :42 - Page URL is verified https://www.gov.uk/check-vehicle-tax
+2020-10-21 14:10:597 INFO  DriverClass :60 - Message of Page is verified Is this the vehicle you are looking for?
+2020-10-21 14:10:845 INFO  DriverClass :15 - expected Url is https://vehicleenquiry.service.gov.uk/?locale=en
+2020-10-21 14:10:845 INFO  DriverClass :16 - Actual Url is https://vehicleenquiry.service.gov.uk/?locale=en
+2020-10-21 14:10:845 INFO  DriverClass :27 - Page URL is verified https://vehicleenquiry.service.gov.uk/?locale=en
+2020-10-21 14:10:692 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:768 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:382 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:39 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 14:10:302 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 15:10:777 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 15:10:907 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 15:10:522 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 15:10:842 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 15:10:423 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 22:10:544 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 22:10:651 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 22:10:651 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 22:10:844 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:450 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:356 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:356 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:575 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:575 INFO  DriverClass :47 - Title Mr. is selected
+2020-10-21 23:10:130 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:404 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:404 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:626 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:626 INFO  DriverClass :47 - Title Mr. is selected
+2020-10-21 23:10:787 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:395 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:395 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:613 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:626 INFO  DriverClass :48 - Title Mr. is selected
+2020-10-21 23:10:427 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:194 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:194 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:421 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:423 INFO  DriverClass :48 - Title Mr. is selected
+2020-10-21 23:10:54 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:486 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:486 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:688 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:696 INFO  DriverClass :48 - Title Mr. is selected
+2020-10-21 23:10:412 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:475 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:475 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:717 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:726 INFO  DriverClass :48 - Title Mr. is selected
+2020-10-21 23:10:611 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:881 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:889 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:112 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:119 INFO  DriverClass :49 - Title Mr. is selected
+2020-10-21 23:10:398 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:149 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:157 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:381 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:523 INFO  DriverClass :49 - Title Mr. is selected
+2020-10-21 23:10:374 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:647 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:647 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:892 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:959 INFO  DriverClass :48 - Title Mrs. is selected
+2020-10-21 23:10:288 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:384 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:384 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:620 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:689 INFO  DriverClass :65 - Title Mrs. is selected
+2020-10-21 23:10:270 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:383 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:383 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:592 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:665 INFO  DriverClass :65 - Title Mrs. is selected
+2020-10-21 23:10:833 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-21 23:10:76 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:76 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-21 23:10:319 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-21 23:10:396 INFO  DriverClass :65 - Title Mrs. is selected
+2020-10-22 00:10:924 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-22 00:10:704 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:704 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:848 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-22 00:10:933 INFO  DriverClass :68 - Title Mrs. is selected
+2020-10-22 00:10:350 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-22 00:10:373 INFO  DriverClass :137 - My Account page Heading is verified =My account
+2020-10-22 00:10:617 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-22 00:10:547 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php
+2020-10-22 00:10:548 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php
+2020-10-22 00:10:567 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:567 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:768 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-22 00:10:835 INFO  DriverClass :68 - Title Mrs. is selected
+2020-10-22 00:10:76 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-22 00:10:99 INFO  DriverClass :137 - My Account page Heading is verified =My account
+2020-10-22 00:10:922 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-22 00:10:304 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php
+2020-10-22 00:10:304 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php
+2020-10-22 00:10:22 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:23 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:186 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-22 00:10:269 INFO  DriverClass :68 - Title Mrs. is selected
+2020-10-22 00:10:551 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is My account - My Store
+2020-10-22 00:10:766 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-22 00:10:792 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php
+2020-10-22 00:10:792 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php
+2020-10-22 00:10:888 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:888 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php?controller=authentication&back=my-account
+2020-10-22 00:10:42 INFO  DriverClass :23 - Page Title is verified Actual pagetitle is Login - My Store
+2020-10-22 00:10:113 INFO  DriverClass :68 - Title Mrs. is selected
+2020-10-23 11:10:810 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 11:10:101 INFO  DriverClass :16 - expected Url is http://automationpractice.com/index.php
+2020-10-23 11:10:101 INFO  DriverClass :17 - Actual Url is http://automationpractice.com/index.php
+2020-10-23 11:10:822 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 11:10:586 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 12:10:731 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 12:10:471 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 12:10:868 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 12:10:644 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 12:10:645 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:931 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:950 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:951 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:16 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:402 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:402 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:455 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:289 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:289 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:720 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:653 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:654 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:452 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:798 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:799 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:786 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:941 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:941 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:595 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:429 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:429 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:183 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:573 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:343 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:343 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:905 INFO  DriverClass :78 - ErrorMsg is verified 
+2020-10-23 13:10:825 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:884 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:884 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:614 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:294 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:302 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:780 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:94 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:94 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:596 INFO  DriverClass :87 - Error Message is verified
+2020-10-23 13:10:639 INFO  DriverClass :78 - ErrorMsg is verified 
+2020-10-23 13:10:498 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:202 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:202 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:327 INFO  DriverClass :85 - Error Message is verifiedYOUR ENTERED CODE IS INCORRECT.
+2020-10-23 13:10:366 INFO  DriverClass :77 - ErrorMsg is verified Validation errors occurred. Please confirm the fields and submit it again.
+2020-10-23 13:10:239 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-23 13:10:373 INFO  DriverClass :24 - expected Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:373 INFO  DriverClass :25 - Actual Url is https://www.d3dsecurity.co.uk/
+2020-10-23 13:10:332 INFO  DriverClass :84 - Error Message is verified---->YOUR ENTERED CODE IS INCORRECT.
+2020-10-23 13:10:377 INFO  DriverClass :76 - ErrorMsg is verified----> Validation errors occurred. Please confirm the fields and submit it again.
+2020-10-29 19:10:871 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 19:10:139 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 19:10:671 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 19:10:391 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:924 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:32 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:137 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:431 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:573 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:360 INFO  DriverClass :27 - expected Url is http://live.demoguru99.com/
+2020-10-29 20:10:360 INFO  DriverClass :28 - Actual Url is http://live.demoguru99.com/
+2020-10-29 20:10:878 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:529 INFO  DriverClass :26 - expected Url is http://live.demoguru99.com/
+2020-10-29 20:10:537 INFO  DriverClass :27 - Actual Url is http://live.demoguru99.com/
+2020-10-29 20:10:963 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:629 INFO  DriverClass :26 - expected Url is http://live.demoguru99.com/
+2020-10-29 20:10:637 INFO  DriverClass :27 - Actual Url is http://live.demoguru99.com/
+2020-10-29 20:10:388 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:141 INFO  DriverClass :26 - expected Url is http://live.demoguru99.com/
+2020-10-29 20:10:141 INFO  DriverClass :27 - Actual Url is http://live.demoguru99.com/
+2020-10-29 20:10:165 INFO  DriverClass :33 - Page Title is verified Actual pagetitle is Home page
+2020-10-29 20:10:267 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 20:10:863 INFO  DriverClass :26 - expected Url is http://live.demoguru99.com/
+2020-10-29 20:10:863 INFO  DriverClass :27 - Actual Url is http://live.demoguru99.com/
+2020-10-29 20:10:884 INFO  DriverClass :33 - Page Title is verified Actual pagetitle is Home page
+2020-10-29 20:10:962 INFO  DriverClass :33 - Page Title is verified Actual pagetitle is Mobile
+2020-10-29 21:10:327 INFO  DriverClass :43 - Chrome Browser is opened
+2020-10-29 21:10:974 INFO  DriverClass :26 - expected Url is http://live.demoguru99.com/
+2020-10-29 21:10:975 INFO  DriverClass :27 - Actual Url is http://live.demoguru99.com/
+2020-10-29 21:10:992 INFO  DriverClass :33 - Page Title is verified Actual pagetitle is Home page
+2020-10-29 21:10:332 INFO  DriverClass :33 - Page Title is verified Actual pagetitle is Mobile

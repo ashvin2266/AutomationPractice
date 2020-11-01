@@ -1,7 +1,7 @@
 package com.stepDefination.web_sd;
 
 import com.stepDefination.utility.DriverClass;
-import com.stepDefination.pages.contactUs_page;
+import com.stepDefination.pages.ContactUs_page;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -13,11 +13,17 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 public class contactUs_sd extends DriverClass {
-    public contactUs_page c_page = PageFactory.initElements(driver, contactUs_page.class);
-
+    public ContactUs_page c_page = PageFactory.initElements(driver, ContactUs_page.class);
+//    contact 1
     @When("^I click on contact us on home page$")
     public void iClickOnContactUsOnHomePage() {
         c_page.clickContactUs();
+    }
+    @Then("^I should see the url contains \"([^\"]*)\"$")
+    public void iShouldSeeTheUrlContains(String partialURL) {
+        String actual_url = driver.getCurrentUrl();
+        Assert.assertTrue(actual_url.contains(partialURL));
+        log.info("Page Url is verified  "+ actual_url);
     }
     @Given("^I selected subject heading as \"([^\"]*)\"$")
     public void iSelectedSubjectHeadingAs(String sub_heading)
@@ -33,15 +39,14 @@ public class contactUs_sd extends DriverClass {
     public void iEnterOrderReferenceAs(String order_ref) {
         c_page.orderRef(order_ref);
     }
+    @Given("^I enter a message as \"([^\"]*)\"$")
+    public void iEnterAMessageAs(String message1) {
+        c_page.message1(message1);
+    }
 
     @Given("^I attached file$")
     public void iAttachedFile() {
         c_page.attachedFile();
-    }
-
-    @Given("^I enter a message as \"([^\"]*)\"$")
-    public void iEnterAMessageAs(String message1) {
-        c_page.message1(message1);
     }
 
     @When("^I click on send button$")
@@ -63,35 +68,28 @@ public class contactUs_sd extends DriverClass {
         c_page.withoutAttachedFile();
     }
 
-    @Then("^I should see the url contains \"([^\"]*)\"$")
-    public void iShouldSeeTheUrlContains(String partialURL) {
-        String actual_url = driver.getCurrentUrl();
-        Assert.assertTrue(actual_url.contains(partialURL));
-    }
-    @Given("^I enter order reference as a \"([^\"]*)\"$")
-    public void iEnterOrderReferenceAsA(String order_ref) throws InterruptedException {
-        Thread.sleep(2000);
-        driver.findElement(By.name("id_order")).sendKeys(order_ref);
-    }
+
+//  other contact2 to10
+    //following are is displayed is selected is enable method how to verify
+
     @Then("^I should not see sign Out button$")
     public void iShouldNotSeeSignOutButton() {
         int signOutButton = driver.findElements(By.linkText("Sign out")).size();
         Assert.assertEquals(0, signOutButton);
-        System.out.println(signOutButton);
+        log.info("Not seen signOut button is verified "+signOutButton);
 
     }
     @And("^i should see sign in button$")
     public void iShouldSeeSignInButton() {
         boolean ButtonDisplay = driver.findElement(By.linkText("Sign in")).isDisplayed();
         Assert.assertTrue(ButtonDisplay);
-        System.out.println(ButtonDisplay);
+        log.info("Sign in button is displayed  "+ ButtonDisplay);
     }
     @Then("^I should see Contact Us button$")
     public void iShouldSeeContactUsButton() throws InterruptedException {
         boolean contactUsButton = driver.findElement(By.xpath("//div[@id='contact-link']")).isDisplayed();
-        Thread.sleep(3000);
         Assert.assertTrue(contactUsButton);
-        System.out.println(contactUsButton);
+        log.info("Contact us button is displayed  "+contactUsButton);
     }
 
     @When("^I click Browser back button$")
@@ -101,7 +99,7 @@ public class contactUs_sd extends DriverClass {
 
     @Then("^I should not see the message as a \"([^\"]*)\"$")
     public void iShouldNotSeeTheMessageAsA(String arg0)  {
-        int messageDisplayed = driver.findElements(By.xpath("//*[@id=\"center_column\"]/div")).size();
+        int messageDisplayed = driver.findElements(By.xpath("//*[@id='center_column']/div")).size();
         Assert.assertEquals(0,messageDisplayed);
 
     }
@@ -127,6 +125,10 @@ public class contactUs_sd extends DriverClass {
         String subHeading = table.getGherkinRows().get(0).getCells().get(0);
         new Select(driver.findElement(By.name("id_contact"))).selectByVisibleText(subHeading);
         System.out.println(subHeading);
+    }
+
+    @Given("^I enter a valid detail$")
+    public void iEnterAValidDetail(DataTable table) {
         String email = table.getGherkinRows().get(1).getCells().get(0);
         driver.findElement(By.id("email")).sendKeys(email);
         System.out.println(email);
@@ -136,12 +138,6 @@ public class contactUs_sd extends DriverClass {
         String message1 = table.getGherkinRows().get(1).getCells().get(2);
         System.out.println(message1);
         driver.findElement(By.id("message")).sendKeys(message1);
-
-
-    }
-
-    @Given("^I enter a valid detail$")
-    public void iEnterAValidDetail(DataTable table) {
 
     }
 }

@@ -1,163 +1,121 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("web/alreadyRegistered.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("web/gureTest1.feature");
 formatter.feature({
-  "line": 2,
-  "name": "Already Registered",
+  "line": 1,
+  "name": "User select mobile and check it is in cart",
   "description": "",
-  "id": "already-registered",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@already"
-    }
-  ]
+  "id": "user-select-mobile-and-check-it-is-in-cart",
+  "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10474181300,
+  "duration": 8355032300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "I enter a valid detail",
+  "line": 3,
+  "name": "verify selected mobile are sorted by name",
   "description": "",
-  "id": "already-registered;i-enter-a-valid-detail",
+  "id": "user-select-mobile-and-check-it-is-in-cart;verify-selected-mobile-are-sorted-by-name",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 3,
-      "name": "@already1"
+      "line": 2,
+      "name": "@guru1"
     }
   ]
 });
 formatter.step({
+  "line": 4,
+  "name": "I go to Home Page url as \"http://live.demoguru99.com/\"",
+  "keyword": "Given "
+});
+formatter.step({
   "line": 5,
-  "name": "I go to Home Page",
+  "name": "I Verify Title of the page",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "I click on a sign in button on home page",
+  "name": "I Click on �MOBILE� menu",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should see Already Registered in authentication page title as\"Login - My Store\"",
+  "name": "I  Verify the  Title of the page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 8,
-  "name": "I enter a valid email as \"abg@hotmail.com\"",
+  "name": "In the list of all mobile",
   "keyword": "Given "
 });
 formatter.step({
   "line": 9,
-  "name": "I enter a valid password as \"123abc\"",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 10,
-  "name": "I click on sign in button",
+  "name": "I select �SORT BY� dropdown as �name�",
   "keyword": "When "
 });
 formatter.step({
-  "line": 11,
-  "name": "I should see my account page Url as\"http://automationpractice.com/index.php?controller\u003dmy-account\"",
+  "line": 10,
+  "name": "I Verify all products are sorted by name",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 12,
-  "name": "verify the page title of account page is \"My account - My Store\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "alreadyRegistered_sd.iGoToHomePage()"
-});
-formatter.result({
-  "duration": 132985900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "alreadyRegistered_sd.iClickOnASignInButtonOnHomePage()"
-});
-formatter.result({
-  "duration": 1698111600,
-  "status": "passed"
-});
 formatter.match({
   "arguments": [
     {
-      "val": "Login - My Store",
-      "offset": 64
-    }
-  ],
-  "location": "alreadyRegistered_sd.iShouldSeeAlreadyRegisteredInAuthenticationPageTitleAs(String)"
-});
-formatter.result({
-  "duration": 8983100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "abg@hotmail.com",
+      "val": "http://live.demoguru99.com/",
       "offset": 26
     }
   ],
-  "location": "alreadyRegistered_sd.iEnterAValidEmailAs(String)"
+  "location": "getaQuote_sd.iGoToHomePageUrlAs(String)"
 });
 formatter.result({
-  "duration": 85906800,
+  "duration": 140259400,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "123abc",
-      "offset": 29
-    }
-  ],
-  "location": "createAnAccount_sd.iEnterAValidPasswordAs(String)"
+  "location": "guruTest1_sd.iVerifyTitleOfThePage()"
 });
 formatter.result({
-  "duration": 76625100,
+  "duration": 9400300,
   "status": "passed"
 });
 formatter.match({
-  "location": "alreadyRegistered_sd.iClickOnSignInButton()"
+  "location": "guruTest1_sd.iClickOnMOBILEMenu()"
 });
 formatter.result({
-  "duration": 1436653300,
+  "duration": 1333843700,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "http://automationpractice.com/index.php?controller\u003dmy-account",
-      "offset": 36
-    }
-  ],
-  "location": "alreadyRegistered_sd.iShouldSeeMyAccountPageUrlAs(String)"
+  "location": "guruTest1_sd.iVerifyTheTitleOfThePage()"
 });
 formatter.result({
-  "duration": 5411700,
+  "duration": 4530500,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "My account - My Store",
-      "offset": 42
-    }
-  ],
-  "location": "alreadyRegistered_sd.verifyThePageTitleOfAccountPageIs(String)"
+  "location": "guruTest1_sd.inTheListOfAllMobile()"
 });
 formatter.result({
-  "duration": 8456800,
+  "duration": 37879700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "guruTest1_sd.iSelectSORTBYDropdownAsName()"
+});
+formatter.result({
+  "duration": 504017500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "guruTest1_sd.iVerifyAllProductsAreSortedByName()"
+});
+formatter.result({
+  "duration": 463032000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56322900,
+  "duration": 98900,
   "status": "passed"
 });
 });

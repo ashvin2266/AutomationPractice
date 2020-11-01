@@ -1,9 +1,8 @@
-Feature:
+Feature:User select mobile and check it is in cart
   @guru1
-
-  Scenario:
-#  Given I Goto "http://live.guru99.com/"
-  Given I Verify Title of the page
+  Scenario:verify selected mobile are sorted by name
+    Given I go to Home Page url as "http://live.demoguru99.com/"
+    Given I Verify Title of the page
     When  I Click on �MOBILE� menu
     Then I  Verify the  Title of the page
     Given In the list of all mobile

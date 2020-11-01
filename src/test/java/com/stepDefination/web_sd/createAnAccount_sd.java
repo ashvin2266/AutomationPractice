@@ -1,21 +1,30 @@
 package com.stepDefination.web_sd;
 
+import com.stepDefination.pages.alreadyRegistered_page;
+import com.stepDefination.utility.CommonMethod;
 import com.stepDefination.utility.DriverClass;
 import com.stepDefination.pages.createAnAccount_page;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 
+import java.io.IOException;
+
 public class createAnAccount_sd extends DriverClass {
-    public createAnAccount_page c_page= PageFactory.initElements(driver,createAnAccount_page.class);
+   public createAnAccount_page c_page= PageFactory.initElements(driver,createAnAccount_page.class);
     @When("^I click on sign in button on home page$")
-    public void iClickOnSignInButtonOnHomePage() {
-       c_page.clickSignIn();
-    }
+    public void iClickOnSignInButtonOnHomePage()
+    {
+       new alreadyRegistered_page().clickSignIn();
+
+           }
     @Then("^I should see create an account in authentication page$")
-    public void iShouldSeeCreateAnAccountInAuthenticationPage() throws InterruptedException {
-        c_page.authenticationPage();
+    public void iShouldSeeCreateAnAccountInAuthenticationPage() throws IOException {
+        String expUrl="http://automationpractice.com/index.php?controller=authentication&back=my-account";
+        CommonMethod.verifyUrl(expUrl);
     }
     @Given("^I enter valid email address \"([^\"]*)\"$")
     public void iEnterValidEmailAddress(String Email1)  {
@@ -27,7 +36,8 @@ public class createAnAccount_sd extends DriverClass {
     }
     @Then("^I should see your personal information page$")
     public void iShouldSeeYourPersonalInformationPage() {
-        c_page.personnelPage();
+       String expTitle="Login - My Store";
+       CommonMethod.verifyPageTitle(expTitle);
     }
     @Given("^I select \"([^\"]*)\" as a Title$")
     public void iSelectAsATitle(String Title) throws InterruptedException {
@@ -121,5 +131,15 @@ public class createAnAccount_sd extends DriverClass {
         c_page.accountPage();
 //        Assert.assertEquals(ActualURL,);
 
+    }
+
+    @And("^I verify page title is as \"([^\"]*)\"$")
+    public void iVerifyPageTitleIsAs(String expTitle)  {
+       CommonMethod.verifyPageTitle(expTitle);
+    }
+
+    @And("^I verify the heading of page is \"([^\"]*)\"$")
+    public void iVerifyTheHeadingOfPageIs(String arg0)  {
+        c_page.verifyPageHeading(arg0);
     }
 }

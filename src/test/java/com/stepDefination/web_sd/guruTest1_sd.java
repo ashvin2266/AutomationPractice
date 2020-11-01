@@ -1,5 +1,7 @@
 package com.stepDefination.web_sd;
 
+import com.stepDefination.pages.GuruTestPage;
+import com.stepDefination.utility.CommonMethod;
 import com.stepDefination.utility.DriverClass;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -18,6 +20,7 @@ import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 
 public class guruTest1_sd extends DriverClass {
+    GuruTestPage gp=new GuruTestPage();
     private long xperia_price;
     private long xperia_price1;
     String mainMobile1;
@@ -25,36 +28,25 @@ public class guruTest1_sd extends DriverClass {
 
     @Given("^I Verify Title of the page$")
     public void iVerifyTitleOfThePage() {
-        String demoSite  = driver.findElement(By.cssSelector("h2")).getText();
-        System.out.println(demoSite);
-        try {
-            Assert.assertEquals("THIS IS DEMO SITE FOR   ", demoSite);
-        } catch (Error e) {
-            StringBuffer verificationErrors = new StringBuffer();
-
-            verificationErrors.append(e.toString());
-        }
-
-
-    }
+        String expectTitle="Home page";
+        CommonMethod.verifyPageTitle(expectTitle);
+           }
 
     @When("^I Click on �MOBILE� menu$")
     public void iClickOnMOBILEMenu() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.findElement(By.className("level0")).click();
+        gp.clickMobileLink();
 
     }
-
-    
 
     @Then("^I  Verify the  Title of the page$")
     public void iVerifyTheTitleOfThePage() {
-        System.out.println( driver.getTitle());
-    }
+        String expTitle="Mobile";
+        CommonMethod.verifyPageTitle(expTitle);
+          }
 
     @Given("^In the list of all mobile$")
     public void inTheListOfAllMobile() {
-        String items =  driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[2]/div/p")).getText();
+        String items =  driver.findElement(By.xpath("//p[@class='amount amount--no-pages']")).getText();
         System.out.println(items);
 
     }

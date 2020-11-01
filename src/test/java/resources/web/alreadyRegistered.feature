@@ -18,7 +18,7 @@ Feature: Already Registered
     Given I enter a valid email as "abg@hotmail.com"
     Given I enter a valid password as ""
     When I click on sign in button
-    Then I should see error message as "Password is required."
+    Then I should see error message as "Password is required1."
   @already3
     Scenario: Scenario:  I enter a Invalid email and valid password detail
       Given I go to Home Page
