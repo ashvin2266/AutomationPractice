@@ -8,8 +8,8 @@ Feature:User select mobile and check it is in cart
     Given In the list of all mobile
     When I select �SORT BY� dropdown as �name�
     Then I Verify all products are sorted by name
-    @guru
 
+    @guru
   Scenario: verify the cost of product in list page and detail page
     When  I Click on �MOBILE� menu
     Then I  Verify the  Title of the page

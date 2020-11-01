@@ -12,10 +12,14 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
@@ -30,43 +34,31 @@ public class guruTest1_sd extends DriverClass {
     public void iVerifyTitleOfThePage() {
         String expectTitle="Home page";
         CommonMethod.verifyPageTitle(expectTitle);
-           }
-
+    }
     @When("^I Click on �MOBILE� menu$")
     public void iClickOnMOBILEMenu() throws InterruptedException {
         gp.clickMobileLink();
-
     }
-
     @Then("^I  Verify the  Title of the page$")
     public void iVerifyTheTitleOfThePage() {
         String expTitle="Mobile";
         CommonMethod.verifyPageTitle(expTitle);
           }
-
     @Given("^In the list of all mobile$")
     public void inTheListOfAllMobile() {
-        String items =  driver.findElement(By.xpath("//p[@class='amount amount--no-pages']")).getText();
-        System.out.println(items);
-
+        gp.totalAmountSearchResult();
     }
 
     @When("^I select �SORT BY� dropdown as �name�$")
     public void iSelectSORTBYDropdownAsName() {
-        new Select(driver.findElement(By.cssSelector(".category-products > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > select:nth-child(2)"))).selectByVisibleText("Name");
+        gp.sortByName();
     }
 
     @Then("^I Verify all products are sorted by name$")
     public void iVerifyAllProductsAreSortedByName() throws IOException {
-        int scc=0;
-        scc = (scc + 1);
-        File scrFile;
-        scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String png = ("C:\\Guru99 eCommerce Live Project\\Day01_TestCase1\\Mobile Products are sorted" + scc + ".png");
-        FileUtils.copyFile(scrFile, new File(png));
-
-    }
-
+      gp.iVerifyAllProductsAreSortedByName();
+        }
+//*******************************************************second scenario************************
     @Given("^I read the price of sony Xperia and note down the price$")
     public void  iReadThePriceOfSonyXperiaAneNoteDownThePrice() {
         String xperia_price = driver.findElement(By.id("product-price-1")).getText();

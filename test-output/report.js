@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8355032300,
+  "duration": 10550516400,
   "status": "passed"
 });
 formatter.scenario({
@@ -69,53 +69,54 @@ formatter.match({
   "location": "getaQuote_sd.iGoToHomePageUrlAs(String)"
 });
 formatter.result({
-  "duration": 140259400,
+  "duration": 136383000,
   "status": "passed"
 });
 formatter.match({
   "location": "guruTest1_sd.iVerifyTitleOfThePage()"
 });
 formatter.result({
-  "duration": 9400300,
+  "duration": 8058400,
   "status": "passed"
 });
 formatter.match({
   "location": "guruTest1_sd.iClickOnMOBILEMenu()"
 });
 formatter.result({
-  "duration": 1333843700,
+  "duration": 1224686500,
   "status": "passed"
 });
 formatter.match({
   "location": "guruTest1_sd.iVerifyTheTitleOfThePage()"
 });
 formatter.result({
-  "duration": 4530500,
+  "duration": 4034800,
   "status": "passed"
 });
 formatter.match({
   "location": "guruTest1_sd.inTheListOfAllMobile()"
 });
 formatter.result({
-  "duration": 37879700,
+  "duration": 31052800,
   "status": "passed"
 });
 formatter.match({
   "location": "guruTest1_sd.iSelectSORTBYDropdownAsName()"
 });
 formatter.result({
-  "duration": 504017500,
+  "duration": 77190900,
   "status": "passed"
 });
 formatter.match({
   "location": "guruTest1_sd.iVerifyAllProductsAreSortedByName()"
 });
 formatter.result({
-  "duration": 463032000,
-  "status": "passed"
+  "duration": 53378500,
+  "error_message": "java.lang.AssertionError: expected:\u003c[IPHONE, SAMSUNG GALAXY, SONY XPERIA]\u003e but was:\u003c[SONY XPERIA, IPHONE, SAMSUNG GALAXY]\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.stepDefination.web_sd.guruTest1_sd.iVerifyAllProductsAreSortedByName(guruTest1_sd.java:70)\r\n\tat ✽.Then I Verify all products are sorted by name(web/gureTest1.feature:10)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 98900,
+  "duration": 462093600,
   "status": "passed"
 });
 });
